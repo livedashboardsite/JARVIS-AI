@@ -17,7 +17,7 @@ module.exports = async function handler(req, res) {
     return;
   }
 
-  const apiKey = process.env.GEMINI_API_KEY;
+  const apiKey = process.env.OPENROUTER_API_KEY;
   if (!apiKey) {
     res.status(500).json({
       error: 'GEMINI_API_KEY is not set. Add it in Vercel → Project → Settings → Environment Variables, then redeploy.'
