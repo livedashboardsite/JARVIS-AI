@@ -75,7 +75,6 @@ Jarvis is a voice-driven AI assistant built on the exact pattern taught in the b
 ```
 .
 ├── voice_assistant.py              # Core homework logic — memory, personality, cost-saving (Colab-taught pattern)
-├── Voice_Assistant_Homework.ipynb  # Same code as a Colab notebook
 ├── index.html                      # Live voice UI — Apple-style, voice in/out, live transcript
 ├── api/
 │   └── chat.js                     # Vercel serverless function — calls Gemini, keeps the API key server-side
